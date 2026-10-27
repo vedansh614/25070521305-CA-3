@@ -1,0 +1,32 @@
+{
+  "name": "playarena-server",
+  "version": "1.0.0",
+  "description": "PLAYARENA - Sports Turf & Court Booking System Backend",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "seed": "node src/scripts/seed.js",
+    "create-admin": "node src/scripts/createAdmin.js",
+    "test": "node --test tests/*.test.js"
+  },
+  "keywords": [
+    "playarena",
+    "sports-booking",
+    "turf-booking",
+    "court-booking"
+  ],
+  "author": "25070521305",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.13.0",
+    "socket.io": "^4.8.1"
+  }
+}

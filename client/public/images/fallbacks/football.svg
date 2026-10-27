@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgFootball" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#041b17"/>
+      <stop offset="100%" stop-color="#072d24"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bgFootball)"/>
+  <!-- Pitch Outer Boundary -->
+  <rect x="80" y="50" width="640" height="400" rx="12" fill="#064e3b" fill-opacity="0.5" stroke="#10b981" stroke-width="3"/>
+  <!-- Center Line and Circle -->
+  <line x1="400" y1="50" x2="400" y2="450" stroke="#f8fafc" stroke-width="2"/>
+  <circle cx="400" cy="250" r="70" fill="none" stroke="#f8fafc" stroke-width="2"/>
+  <circle cx="400" cy="250" r="5" fill="#a3e635"/>
+  <!-- Left Penalty Box and Goal -->
+  <rect x="80" y="150" width="120" height="200" fill="none" stroke="#f8fafc" stroke-width="2"/>
+  <rect x="50" y="190" width="30" height="120" fill="#04271e" stroke="#a3e635" stroke-width="2"/>
+  <!-- Right Penalty Box and Goal -->
+  <rect x="600" y="150" width="120" height="200" fill="none" stroke="#f8fafc" stroke-width="2"/>
+  <rect x="720" y="190" width="30" height="120" fill="#04271e" stroke="#a3e635" stroke-width="2"/>
+  <!-- Badge -->
+  <rect x="290" y="225" width="220" height="50" rx="25" fill="#0a192f" stroke="#10b981" stroke-width="2"/>
+  <text x="400" y="256" font-family="sans-serif" font-size="16" font-weight="800" fill="#a3e635" text-anchor="middle" letter-spacing="2">FOOTBALL TURF</text>
+</svg>
